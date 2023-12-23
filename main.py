@@ -13,7 +13,7 @@ cor6 = "#565c63" #azul
 
 window = Tk()
 window.title("Calculadora")
-window.geometry("360x500")
+window.geometry("360x450")
 window.config(bg = cor6)
 
 #frames
@@ -47,6 +47,39 @@ b6.place(x = 180, y = 70)
 
 b7 = Button(frame_num, text = "*", width = 8, height = 3, bg = cor4, fg = cor2, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
 b7.place(x = 270, y = 70)
+
+b8 = Button(frame_num, text = "4", width = 8, height = 3, bg = cor3, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b8.place(x = 0, y = 140)
+
+b9 = Button(frame_num, text = "5", width = 8, height = 3, bg = cor3, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b9.place(x = 90, y = 140)
+
+b10 = Button(frame_num, text = "6", width = 8, height = 3, bg = cor3, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b10.place(x = 180, y = 140)
+
+b11 = Button(frame_num, text = "-", width = 8, height = 3, bg = cor4, fg = cor2, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b11.place(x = 270, y = 140)
+
+b12 = Button(frame_num, text = "1", width = 8, height = 3, bg = cor3, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b12.place(x = 0, y = 210)
+
+b13 = Button(frame_num, text = "2", width = 8, height = 3, bg = cor3, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b13.place(x = 90, y = 210)
+
+b14 = Button(frame_num, text = "3", width = 8, height = 3, bg = cor3, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b14.place(x = 180, y = 210)
+
+b15 = Button(frame_num, text = "+", width = 8, height = 3, bg = cor4, fg = cor2, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b15.place(x = 270, y = 210)
+
+b16 = Button(frame_num, text = "0", width = 17, height = 3, bg = cor3, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b16.place(x = 0, y = 280)
+
+b17 = Button(frame_num, text = ".", width = 8, height = 3, bg = cor3, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b17.place(x = 180, y = 280)
+
+b18 = Button(frame_num, text = "=", width = 8, height = 3, bg = cor4, fg = cor2, font = ('Ivy 13 bold'), relief = RAISED, overrelief = RIDGE)
+b18.place(x = 270, y = 280)
 
 
 window.mainloop()
